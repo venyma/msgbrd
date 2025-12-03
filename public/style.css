@@ -1,0 +1,28 @@
+body {
+font-family: sans-serif;
+padding: 20px;
+background: #111;
+color: #eee;
+}
+.block {
+margin: 25px 0;
+padding: 15px;
+border: 1px solid #444;
+border-radius: 10px;
+background: #222;
+}
+input, textarea {
+width: 250px;
+padding: 6px;
+margin: 6px 0;
+background: #333;
+color: #fff;
+border: 1px solid #555;
+}
+button {
+padding: 8px 15px;
+background: #28a;
+color: white;
+border: none;
+cursor: pointer;
+}
