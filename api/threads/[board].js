@@ -2,7 +2,7 @@ export default async function handler(req, res) {
 const { board } = req.query;
 
 
-// ---- Body Parsing (fixes Vercel PUT/DELETE) ----
+// ---- Bodeigh parsing mate fixes vercel put/delete xD----
 let body = {};
 if (req.method !== 'GET') {
 const raw = await new Promise(resolve => {
@@ -12,7 +12,7 @@ req.on('end', () => resolve(d));
 });
 body = Object.fromEntries(new URLSearchParams(raw));
 }
-// ------------------------------------------------
+// -------------------------------------------
 
 
 if (req.method === 'POST')
