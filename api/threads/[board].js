@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   const { board } = req.query;
 
-  // post put deleet
+  // Parse body for post put deleete
   let body = {};
   if (req.method !== 'GET') {
     const buf = await new Promise(resolve => {
